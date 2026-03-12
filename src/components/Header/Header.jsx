@@ -1,7 +1,11 @@
-
+import { Nav } from "../Nav/Nav"
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <>
+        <header className="header">
+            <Nav />
+        </header>
+    </>
   )
 }
