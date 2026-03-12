@@ -5,7 +5,7 @@ export const Posts = (props) => {
     <>
     {
         props.posts.map((el) => {
-            return <div key={el.id} className='item'>
+            return <div key={el.id} className='items'>
                 <p>{el.title}</p>
                 <p>{el.body}</p>
             </div>

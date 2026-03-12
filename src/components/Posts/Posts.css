@@ -1,5 +1,6 @@
-.item{
-    width: 200px;
-    height: 200px;
+.items{
+    width: 300px;
+    height: 300px;
     border: 1px solid;
+    margin-top: 50px;
 }
